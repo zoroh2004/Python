@@ -18,3 +18,4 @@ total = bill + tip_perc_calculation
 split = round(total / people, 2)
 #using fprint here to print other data type in curly braces, with string
 print(f"Each person should pay: ${split}")
+
