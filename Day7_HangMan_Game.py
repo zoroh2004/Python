@@ -2,7 +2,7 @@
 #and visual representation of hang-man XD
 
 import random #a library to use random functions
-
+stage = ["1","2","3","4"]
 #ASCII to print hanged man at on each live count
 stages = [r'''
   +---+
@@ -70,7 +70,6 @@ lives = 6
 already_guessed = []
 #random function to choose a random word from the list
 chosen_word = random.choice(word_list)
-
 #the word guessed by the player
 guessed_word = ""
 
