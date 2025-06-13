@@ -152,4 +152,3 @@ while guessed_word != chosen_word:
 # here this if statement is used because the loop can also break if user loses
 if guessed_word == chosen_word:
     print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-You win!-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
-
