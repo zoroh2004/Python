@@ -2,6 +2,14 @@
 # in python  we cannot define constant variables like c++ etc, but what we can do is write the
 # variable names in uppercase, so that we (developer) know that it is a constant, and we shouldn't change it
 
+#logo to print at the top
+logo = r"""
+  / _ \_   _  ___  ___ ___  /__   \ |__   ___    /\ \ \_   _ _ __ ___ | |__   ___ _ __ 
+ / /_\/ | | |/ _ \/ __/ __|   / /\/ '_ \ / _ \  /  \/ / | | | '_ ` _ \| '_ \ / _ \ '__|
+/ /_\\| |_| |  __/\__ \__ \  / /  | | | |  __/ / /\  /| |_| | | | | | | |_) |  __/ |   
+\____/ \__,_|\___||___/___/  \/   |_| |_|\___| \_\ \/  \__,_|_| |_| |_|_.__/ \___|_| 
+"""
+
 import random  # a module to use random functions
 
 EASY_LEVEL_TRIES = 10  # constant global variable to use for easy level game
@@ -48,6 +56,7 @@ def guess_game(t):
 
 
 # welcome message
+print(logo)
 print("Welcome to the Number Guessing Game🎮!")
 
 # function call, with the tries as the return value of the difficulty() function
