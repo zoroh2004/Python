@@ -60,7 +60,7 @@ else:
     choice = None
     #run the loop until choice isn't the exit choice
     while  choice != 5:
-        #asak user the choice in digit and convert to integer
+        #ask user the choice in digit and convert to integer
         choice = int(input("1.Check Balance\n2.Deposit Money\n3.Withdraw Money\n4.Transaction History\n5.Exit\n"))
        #call check_balance function
         if choice == 1:

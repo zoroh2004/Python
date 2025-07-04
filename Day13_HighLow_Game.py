@@ -82,3 +82,4 @@ while correct:
 print("\n"*50)  #to make it seem like a new page on console
 #final message when user gets the wrong answer
 print(f"Sorry That's Wrong, Final score: {current_score}")
+
