@@ -2,7 +2,7 @@
 #if he guesses right, he gets an increment in score, the game continues as long as player is guessing right
 
 #importing a list of dictionaries containing celebrities data from other .py file
-from Day13_HighLow_Game.Day13_HighLow_Game_Data import data
+from Day13_HighLow_Game_Data import data
 #importing random module to use random functions
 import random
 
